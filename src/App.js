@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="center-container">
         <img src={myPhoto} alt="My Icon" className="center-logo" />
-        <p className="greeting">안녕하세요!</p>
+        <p className="greeting">안녕하세요! 이서린입니다!</p>
       </div>
     </div>
   );
