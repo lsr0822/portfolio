@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  
 }
 
 .center-container {
@@ -21,7 +21,7 @@
 .greeting {
   font-size: 24px;
   margin-top: 16px;
-  color: #333;
+  color: white;
 }
 
 body {
