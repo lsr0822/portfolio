@@ -25,6 +25,11 @@
 }
 
 body {
-  background-color: black;
+  background-image: url('./asset/IMG_6646.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  margin: 0;
+  height: 100vh;
 }
