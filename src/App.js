@@ -1,18 +1,17 @@
+import React from 'react';
 import './App.css';
-import myPhoto from './asset/IMG_4792 2.jpg';
+import background from './asset/IMG_4167.PNG';
+import person from './asset/IMG_4165.PNG';
 
 function App() {
   return (
-    <div className="App">
-      <div className="center-container">
-        <img src={myPhoto} alt="My Icon" className="center-logo" />
-        <p className="greeting">안녕하세요! 이서린입니다!</p>
-      </div>
+    <div className="about-container">
+      <img src={background} alt="background" className="background-image" />
+      <h1 className="main-text">PORTFOLIO</h1>
+      <h2 className="sub-text">Front-End</h2>
+      <img src={person} alt="person" className="person-image" />
     </div>
   );
 }
 
-
-
 export default App;
-
