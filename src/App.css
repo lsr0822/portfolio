@@ -23,3 +23,8 @@
   margin-top: 16px;
   color: #333;
 }
+
+body {
+  background-color: black;
+  color: white;
+}
