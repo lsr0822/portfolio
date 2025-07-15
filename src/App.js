@@ -25,12 +25,25 @@ function App() {
         and I am an aspiring front-end developer.
       </p>
 
-      {/* 방문 횟수 출력용 새 클래스 */}
       <p className="visit-count">
         visited this site <strong>{visitCount}</strong> times.
       </p>
 
       <img src={person} alt="person" className="person-image" />
+
+      <a
+        href="https://github.com/lsr0822"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="github-button"
+      >
+        <img
+          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          alt="GitHub Logo"
+          className="github-logo"
+        />
+        View on GitHub
+      </a>
     </div>
   );
 }
