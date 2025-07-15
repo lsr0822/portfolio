@@ -3,9 +3,7 @@ import './App.css';
 import background1 from './asset/IMG_4167.PNG';
 import background2 from './asset/IMG_4168.PNG';
 import person from './asset/IMG_4165.PNG';
-import profile from './asset/IMG_4792_2.jpg';
-import CenterLine from './components/CenterLine';
-import './styles/CenterLine.css';
+import Resume from './pages/Resume';
 
 function App() {
   const [visitCount, setVisitCount] = useState(0);
@@ -62,9 +60,8 @@ function App() {
         </a>
       </div>
 
-      <div className="second-section" style={{ position: 'relative' }}>
-        <CenterLine />
-      </div>
+     
+      <Resume />
     </>
   );
 }
