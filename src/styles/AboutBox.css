@@ -6,7 +6,7 @@
   align-items: flex-start;
   height: 100vh;
   padding-left: 2vw;
-  padding-right: 37vw;
+  padding-right: 15vw;
   box-sizing: border-box;
 }
 
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 40px;
+  gap: 60px;
   position: relative;
 }
 
@@ -56,4 +56,45 @@
   position: relative;     
   left: -280px;       
   z-index: 2;           
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 140px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22px;
+  color: #f0f0f0;
+  margin-top: 80px; 
+}
+
+.section-title {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.icon-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.license-text {
+  font-size: 16px;
+  line-height: 1;
 }
