@@ -31,6 +31,7 @@ function App() {
         <img src={background2} alt="bg2" className="bg-image bg2" style={{ opacity }} />
       </div>
 
+      {/* ✅ 1페이지 */}
       <div className="content-section">
         <h1 className="main-text">PORTFOLIO</h1>
         <h2 className="sub-text">Front-End</h2>
@@ -60,7 +61,7 @@ function App() {
         </a>
       </div>
 
-     
+      {/* ✅ 바로 이어서 2페이지 → Resume 컴포넌트 (AboutBox 포함) */}
       <Resume />
     </>
   );
