@@ -37,7 +37,7 @@ function AboutBox() {
           </div>
           <h2 className="section-title">LICENSE</h2>
           <p className="license-text">태권도 4단 (국기원 공인)<br />취득일: 2021.02.28</p>
-          <p className="license-text">합기도 4단 / 대한합기도협회</p>
+          <p className="license-text">합기도 1단 / 대한합기도협회</p>
         </div>
       </div>
     </div>
