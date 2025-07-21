@@ -182,3 +182,7 @@ body {
 .bg3 {
   z-index: 3;
 }
+
+html {
+  scroll-behavior: smooth;
+}

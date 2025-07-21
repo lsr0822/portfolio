@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
 import background1 from './asset/IMG_4167.PNG';
 import background2 from './asset/IMG_4168.PNG';
 import background3 from './asset/IMG_4173.PNG';
@@ -38,7 +39,7 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
       </div>
 
    
-      <div className="content-section">
+      <div id="home" className="content-section">
         <h1 className="main-text">PORTFOLIO</h1>
         <h2 className="sub-text">Front-End</h2>
         <p className="name-text">
@@ -67,7 +68,7 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
         </a>
       </div>
 
-      
+       <NavBar /> 
       <Resume />
       <NoticeBoard/>
     </>

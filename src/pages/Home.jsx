@@ -11,7 +11,7 @@ import GitHubButton from '../components/GitHubButton';
 
 const Home = () => {
   return (
-    <div className="about-container">
+    <div id="home" className="about-container">
       <MainTitle />
       <SubTitle />
       <Description />

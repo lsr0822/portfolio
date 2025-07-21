@@ -7,7 +7,7 @@ import '../styles/AboutBox.css';
 
 function AboutBox() {
   return (
-    <div className="about-wrapper">
+    <div id="about" className="about-wrapper">
       <div className="about-content">
         <div className="left-block">
           <div className="about-left">

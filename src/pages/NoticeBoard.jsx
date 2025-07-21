@@ -3,7 +3,7 @@ import '../styles/NoticeBoard.css';
 
 function NoticeBoard() {
   return (
-    <div className="notice-wrapper">
+    <div id="project"className="notice-wrapper">
       <h1 className="notice-title">PROJECT</h1>
     </div>
   );
