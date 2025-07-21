@@ -1,0 +1,47 @@
+
+
+.notice-img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+.notice-wrapper {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.notice-img {
+  width: 60%;
+  max-width: 700px;
+  border-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.notice-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 2vw;
+  padding-right: 15vw; 
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.notice-title {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 130px;
+  color: #b96b93;
+  margin-top: -150px;
+  margin-left: 60px;
+  z-index: 10;
+}

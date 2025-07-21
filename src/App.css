@@ -1,7 +1,7 @@
 .about-container {
   position: relative;
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
   overflow: hidden;
   background-color: black;
 }
@@ -120,8 +120,8 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
-  z-index: 0;
+  height: 300vh;
+  z-index: -1;
   overflow: hidden;
 }
 
@@ -159,4 +159,26 @@ body {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+}
+
+
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+  top: 0;
+  left: 0;
+}
+
+.bg1 {
+  z-index: 1;
+}
+.bg2 {
+  z-index: 2;
+}
+.bg3 {
+  z-index: 3;
 }

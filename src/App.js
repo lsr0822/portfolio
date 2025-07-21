@@ -2,8 +2,10 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import background1 from './asset/IMG_4167.PNG';
 import background2 from './asset/IMG_4168.PNG';
+import background3 from './asset/IMG_4173.PNG';
 import person from './asset/IMG_4165.PNG';
 import Resume from './pages/Resume';
+import NoticeBoard from './pages/NoticeBoard'; 
 
 function App() {
   const [visitCount, setVisitCount] = useState(0);
@@ -23,15 +25,19 @@ function App() {
   }, []);
 
   const opacity = Math.min(scrollY / window.innerHeight, 1);
+  const vh = window.innerHeight;
+ 
+const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
 
   return (
     <>
       <div className="background-layer">
         <img src={background1} alt="bg1" className="bg-image bg1" />
         <img src={background2} alt="bg2" className="bg-image bg2" style={{ opacity }} />
+        <img src={background3} alt="bg3" className="bg-image bg3" style={{ opacity: opacity3 }} />
       </div>
 
-      {/* ✅ 1페이지 */}
+   
       <div className="content-section">
         <h1 className="main-text">PORTFOLIO</h1>
         <h2 className="sub-text">Front-End</h2>
@@ -61,8 +67,9 @@ function App() {
         </a>
       </div>
 
-      {/* ✅ 바로 이어서 2페이지 → Resume 컴포넌트 (AboutBox 포함) */}
+      
       <Resume />
+      <NoticeBoard/>
     </>
   );
 }

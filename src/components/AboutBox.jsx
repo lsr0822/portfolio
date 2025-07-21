@@ -2,6 +2,7 @@ import React from 'react';
 import profileImg from '../asset/IMG_6680.JPG';
 import { FaJs, FaHtml5, FaPython, FaGithub, FaDiscord } from 'react-icons/fa';
 import { SiC, SiNotion } from 'react-icons/si';
+
 import '../styles/AboutBox.css';
 
 function AboutBox() {
@@ -29,6 +30,7 @@ function AboutBox() {
             <FaJs size={32} />
             <FaHtml5 size={32} />
             <FaPython size={32} />
+            
           </div>
           <div className="icon-group">
             <SiNotion size={32} />
