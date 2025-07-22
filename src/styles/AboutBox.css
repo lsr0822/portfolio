@@ -5,7 +5,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   height: 100vh;
-  padding-left: 2vw;
+  padding-left: 6vw;
   padding-right: 15vw;
   box-sizing: border-box;
 }
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 60px;
+  gap: 10vw;
   position: relative;
 }
 
@@ -25,17 +25,17 @@
 
 .about-title {
   font-family: 'Rubik Mono One', sans-serif;
-  font-size: 130px;
-  margin-bottom: 20px;
+  font-size: 10vw;
+  margin-bottom: 1vw;
   color: #da88b1;
   position: relative;
   z-index: 0;
 }
 
 .about-description {
-  font-size: 18px;
+  font-size: 1.6vw;
   line-height: 1.6;
-  margin: 5px 0;
+  margin: 0.5vw 0;
   color: #f0f0f0;
 }
 
@@ -63,7 +63,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  gap: 140px;
+  gap: 15vw;
 }
 
 .left-block {
@@ -76,25 +76,25 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 22px;
+  gap: 1.6vw;
   color: #f0f0f0;
-  margin-top: 85px; 
+  margin-top: 6vw; 
 }
 
 .section-title {
   font-family: 'Rubik Mono One', sans-serif;
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 3vw;
+  margin-bottom: 2vw;
   color: #ffffff;
 }
 
 .icon-group {
   display: flex;
-  gap: 20px;
-  margin-bottom: 10px;
+  gap: 2vw;
+  margin-bottom: 2vw;
 }
 
 .license-text {
-  font-size: 16px;
+  font-size: 1.1vw;
   line-height: 1;
 }
