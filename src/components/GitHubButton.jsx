@@ -12,7 +12,7 @@ const GitHubButton = () => (
       alt="GitHub Logo"
       className="github-logo"
     />
-    View on GitHub
+ 
   </a>
 );
 

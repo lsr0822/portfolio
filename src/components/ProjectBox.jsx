@@ -22,13 +22,13 @@ function ProjectBox() {
           <>
             <h2>포트폴리오 사이트</h2>
             <h3>📍 주요 기능 및 특징</h3>
-            <p>-메인 화면에서 github 바로가기<br/>
-               -방문 횟수 기록<br/>
-               -스크롤시 화면 색상 변환<br/>
-               -메인-소개 - 프로젝트 - 순으로 표시<br/>
-               -프로젝트 클릭 시 상세한 정보 표시</p>
+            <p> ·메인 화면에서 github 바로가기<br/>
+                ·방문 횟수 기록<br/>
+                ·스크롤시 화면 색상 변환<br/>
+                ·메인-소개 - 프로젝트 - 순으로 표시<br/>
+                ·프로젝트 클릭 시 상세한 정보 표시</p>
             <h3>🛠️ 사용 기술 및 언어</h3>
-            <p>-Js<br/>-css</p>
+            <p> ·Js<br/> ·css</p>
              <div className="project-cell">
       <img src={img1} alt="img1" className="project-image-vertical" />
       <p>메인 페이지에서는 방문 기록을 확인하고, 제 GitHub로 바로 이동할 수 있습니다.

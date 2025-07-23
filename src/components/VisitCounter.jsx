@@ -12,7 +12,7 @@ const VisitCounter = () => {
 
   return (
     <p className="visit-count">
-      visited this site <strong>{visitCount}</strong> times.
+     👤<strong>{visitCount}</strong>
     </p>
   );
 };
