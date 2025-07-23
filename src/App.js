@@ -6,7 +6,7 @@ import background2 from './asset/IMG_4168.PNG';
 import background3 from './asset/IMG_4173.PNG';
 import person from './asset/IMG_4165.PNG';
 import Resume from './pages/Resume';
-import NoticeBoard from './pages/NoticeBoard'; 
+import NoticeBoard from './pages/Project'; 
 
 function App() {
   const [visitCount, setVisitCount] = useState(0);
@@ -43,8 +43,8 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
         <h1 className="main-text">PORTFOLIO</h1>
         <h2 className="sub-text">Front-End</h2>
         <p className="name-text">
-          My name is LeeSeoRin,<br />
-          and I am an aspiring front-end developer.
+          “If you can code, you can sit down and make something,<br/>
+          and no one can stop you.”<br/>— Mark Zuckerberg —
         </p>
 
         <p className="visit-count">

@@ -30,7 +30,8 @@
   height: 100vh;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: column;   
+  align-items: center; 
   padding-left: 2vw;
   padding-right: 15vw; 
   box-sizing: border-box;
@@ -39,9 +40,10 @@
 
 .notice-title {
   font-family: 'Rubik Mono One', sans-serif;
-  font-size: 11vw;
+  font-size: 10vw;
   color: #b96b93;
   margin-top:1vw;
-  margin-left: 3vw;
+  margin-left: 9vw;
   z-index: 10;
+  margin-bottom:40px;
 }

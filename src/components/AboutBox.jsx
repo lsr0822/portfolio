@@ -17,7 +17,7 @@ function AboutBox() {
             <p className="about-description">Gender: Female</p>
             <p className="about-description">Study: Chosun University</p>
             <p className="about-description">
-              Hobby: <a href="https://www.instagram.com/rini._.0310" target="_blank" rel="noreferrer">Instagram</a>
+              Hobby: <a href="https://www.instagram.com/rini._.0310" target="_blank" rel="noreferrer">drawing</a>
             </p>
           </div>
           <img src={profileImg} alt="Profile" className="about-image" />

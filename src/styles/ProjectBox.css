@@ -1,0 +1,40 @@
+.project-box {
+  width: 70vw;               
+  height: 300px;              
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+   margin: 0 auto;         
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  margin-left: 12vw;
+}
+
+.project-box.clicked {
+  background-color: #222;
+  color: white;
+}
+
+.project-img {
+  height: 90%;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  transform: translateY(-20%);
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.project-content.scrollable {
+  overflow-y: auto;
+}
