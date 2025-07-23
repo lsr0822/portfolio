@@ -48,7 +48,7 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
         </p>
 
         <p className="visit-count">
-          visited this site <strong>{visitCount}</strong> times.
+          👤 <strong>{visitCount}</strong> 
         </p>
 
         <img src={person} alt="person" className="person-image" />
@@ -64,7 +64,7 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
             alt="GitHub Logo"
             className="github-logo"
           />
-          View on GitHub
+         
         </a>
       </div>
 
