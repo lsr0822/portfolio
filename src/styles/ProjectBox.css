@@ -38,3 +38,20 @@
 .project-content.scrollable {
   overflow-y: auto;
 }
+
+.project-cell {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-image-vertical {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}

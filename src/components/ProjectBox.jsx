@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import '../styles/ProjectBox.css';
 import portfolioImg from '../asset/Portfolio-ex.png';
+import img1 from '../asset/Portfolio-ex.png';
+import img2 from '../asset/IMG_4192.PNG';
+import img3 from '../asset/IMG_4193.PNG';
 
 function ProjectBox() {
   const [clicked, setClicked] = useState(false);
@@ -26,6 +29,25 @@ function ProjectBox() {
                -프로젝트 클릭 시 상세한 정보 표시</p>
             <h3>🛠️ 사용 기술 및 언어</h3>
             <p>-Js<br/>-css</p>
+             <div className="project-cell">
+      <img src={img1} alt="img1" className="project-image-vertical" />
+      <p>메인 페이지에서는 방문 기록을 확인하고, 제 GitHub로 바로 이동할 수 있습니다.
+.</p>
+    </div>
+
+ 
+    <div className="project-cell">
+        <img src={img2} alt="img2" className="project-image-vertical" />
+        <p>소개 페이지에서는 간단한 자기소개 내용을 확인할 수 있습니다.</p>
+ 
+    </div>
+
+
+    <div className="project-cell">
+      <img src={img3} alt="img3" className="project-image-vertical" />
+      <p>프로젝트 페이지에서는 각 프로젝트의 간단한 정보를 확인하고,<br/> 클릭을 통해 상세 내용을 볼 수 있습니다.<br/> 앞으로 프로젝트가 늘어날 때마다 계속 업데이트됩니다.</p>
+    
+    </div>
             
           </>
         ) : (
