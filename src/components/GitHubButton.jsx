@@ -7,12 +7,7 @@ const GitHubButton = () => (
     rel="noopener noreferrer"
     className="github-button"
   >
-    <img
-      src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-      alt="GitHub Logo"
-      className="github-logo"
-    />
- 
+    Git Hub
   </a>
 );
 

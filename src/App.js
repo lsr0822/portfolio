@@ -48,7 +48,7 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
         </p>
 
         <p className="visit-count">
-          👤 <strong>{visitCount}</strong> 
+           <strong>{visitCount}</strong> visits
         </p>
 
         <img src={person} alt="person" className="person-image" />
@@ -59,11 +59,7 @@ const opacity3 = Math.min(Math.max((scrollY - vh) / vh, 0), 1);
           rel="noopener noreferrer"
           className="github-button"
         >
-          <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-            alt="GitHub Logo"
-            className="github-logo"
-          />
+          Git Hub
          
         </a>
       </div>
