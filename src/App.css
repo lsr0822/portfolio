@@ -161,15 +161,6 @@ body {
 
 
 
-.bg-image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 0.5s ease;
-  top: 0;
-  left: 0;
-}
 
 .bg1 {
   z-index: 1;
@@ -185,6 +176,14 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
 .background-layer {
   position: fixed;
   top: 0;
@@ -196,35 +195,8 @@ html {
 }
 
 
-.bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 1s ease;
-}
 
-.bg1 {
-  opacity: 1;
-}
-
-
-.scroll-sections {
-  height: 400vh; 
-}
-
-.content-section {
-  height: 100vh;
-}
-
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-}
+.bg-image:nth-child(1) { z-index: 1; }
+.bg-image:nth-child(2) { z-index: 2; }
+.bg-image:nth-child(3) { z-index: 3; }
+.bg-image:nth-child(4) { z-index: 4; }
