@@ -5,7 +5,7 @@
   border-radius: 20px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-   margin: 0 auto;         
+    margin: 0 auto;         
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -14,18 +14,23 @@
 }
 
 .project-box.clicked {
+  
   background-color: #222;
   color: white;
+  
 }
 
 .project-img {
   height: 90%;
   overflow: hidden;
+  
+  
 }
 
 .project-img img {
   width: 100%;
-  transform: translateY(-20%);
+  height: 100%;
+
   object-fit: cover;
 }
 
@@ -37,6 +42,7 @@
 
 .project-content.scrollable {
   overflow-y: auto;
+  
 }
 
 .project-cell {
@@ -56,5 +62,21 @@
   margin-bottom: 8px;
 }
 
+.project-box.clicked .project-img {
+  display: none;
+}
 
 
+.project-top-img {
+  width: 100%;
+  height: 25px; 
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.project-top-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-bottom: 2px solid #333;
+}

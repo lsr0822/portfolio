@@ -4,6 +4,7 @@ import portfolioImg from '../asset/Portfolio-ex.png';
 import img1 from '../asset/Portfolio-ex.png';
 import img2 from '../asset/IMG_4192.PNG';
 import img3 from '../asset/IMG_4193.PNG';
+import webImg from '../asset/Web.png';
 
 function ProjectBox() {
   const [clicked, setClicked] = useState(false);
@@ -14,9 +15,17 @@ function ProjectBox() {
 
   return (
     <div className={`project-box ${clicked ? 'clicked' : ''}`} onClick={handleClick}>
-      <div className="project-img">
-        <img src={portfolioImg} alt="Portfolio" />
-      </div>
+      {!clicked && (
+    <div className="project-img">
+      <img src={portfolioImg} alt="Portfolio" />
+    </div>
+  )}
+
+  {clicked && (
+    <div className="project-top-img">
+      <img src={webImg} alt="Website Screenshot" />
+    </div>
+  )}
       <div className={`project-content ${clicked ? 'scrollable' : ''}`}>
         {clicked ? (
           <>
