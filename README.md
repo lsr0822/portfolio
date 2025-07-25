@@ -3,7 +3,7 @@
 
 <ul>
   <li><strong>Project:</strong> 이서린 포트폴리오 사이트</li>
-  <li><strong>Project Duration:</strong> 2025.07.05 - </li>
+  <li><strong>Project Duration:</strong> 2025.07.05 - ??? </li>
   <li><strong>Link:</strong> <a href="https://www.hachi22.cloud" target="_blank">www.hachi22.cloud</a></li>
   <li><strong>Stack:</strong> React, CSS</li>
 </ul>
