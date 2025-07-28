@@ -36,5 +36,9 @@
 <h2>작업화면</h2>
 
 <img width="1461" height="830" alt="Image" src="https://github.com/user-attachments/assets/fb5f1c91-31b9-4d6e-abcb-74e52ed0cc3e" />
+<p>메인 페이지에서는 방문기록을 확인하고,제 Github로 바로 이동할 수 있는 기능을 구현했습니다.</p>
 
 <img width="1439" height="786" alt="Image" src="https://github.com/user-attachments/assets/19f3abf4-87b6-40f8-9d13-75ae6c944c5d" />
+<p>소개 페이지에서는 간단한 자기소개 내용을 확인할 수 있습니다.</p>
+<img width="1459" height="823" alt="Image" src="https://github.com/user-attachments/assets/66b2827b-11b8-451f-8046-ebb4f9a69b76" />
+<p>프로젝트 페이지에서는 각 프로젝트의 간단한 정보를 확인하고,클릭을 통해 상세 내용을 볼 수 있습니다.</p>
